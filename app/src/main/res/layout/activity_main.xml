@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/mapa"
+            tools:srcCompat="@drawable/mapa" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnubicacion"
+        android:onClick="Ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#4CAF50"
+        android:text="Mi Ubicacion" />
+
+    <Button
+        android:id="@+id/btnsitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#3F51B5"
+        android:text="Sitios Turisticos" />
+
+    <Button
+        android:id="@+id/btntipos"
+        android:onClick="MapasSitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#FF9800"
+        android:text="Tipos de Mapas" />
+
+</LinearLayout>
